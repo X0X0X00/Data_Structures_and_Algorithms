@@ -1,1 +1,13 @@
 
+Zhenhao Zhang
+zzh133@u.rochester.edu
+32277234
+
+
+In this Project, I have two Java files. The first is HuffmanSubmit.java, and the second is HuffmanCoding.java.
+I write the primary function in HuffmanCoding and use the function to implement two methods in HuffmanSubmit:
+encode and decode.
+
+Also, there are two tested files: an image (ur.jpg) and a text story (alice30.txt). When you run the code, it
+will create a freq.txt file containing the frequency and a decoded file. Finally, compare the two Java codes;
+if the input and output files are the same, the code is correct!
