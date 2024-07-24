@@ -1,1 +1,27 @@
+Zhenhao Zhang 32277234 zzh133@u.rochester.edu Lab - 24
 
+
+
+There are three class file in my zip file. one is the given file called UR_Heap
+and another file is called UR_MyHeap which contains the main functions. Furthermore,
+there is a test class called Heap_test. You just need to run the test class and see
+the output. If there are the correct output, that means the code is corrected.
+
+
+
+The output should be：
+
+0
+1 5
+3 2 8 7
+9 6 4
+0 1 2 3 4 5 6 7 8 9
+true
+0
+1 5
+3 2 8 7
+6 4 9
+0
+1 5
+3 2 8 7
+9 6 4 10 11 12 13 14
