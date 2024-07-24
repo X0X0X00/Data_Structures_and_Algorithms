@@ -1,0 +1,44 @@
+Q1 - O(N^2)
+
+Estimate：32K：0.1 * (32/16)^2 = 0.4s
+Accurate：32K: 0.5s
+Error = 0.1s
+Estimate：1M: 0.4 * (32)^2 = 409.6s
+(1M = 1024K = 32*32K)
+Accurate: 509.4s
+Error = 99.8s
+
+
+
+Q2 - O(N log(N))
+
+8K:16K = (8k)log(8K) : (16k)log(16K) = 2(log(16)+log(N)/(log(N))) > k:1
+but when N is big enough, log(k) << log(N) we can assume: klog(kN):log(N) = k((log(k)+log(N))/log(N)) = klog(N):log(N) = k:1
+
+Estimate: 32K: 0.0 * (32/16) = 0.0s
+Accurate: 32K: 0.3s
+Error = 0.3s
+Estimate 1M: 0.3 * (32) = 9.6s
+
+
+
+Q3 - O(N^3)
+
+Estimate: 32K: 803.3* 2^3 = 6426.4s
+Accurate: 32K: 5460.7s
+Error = 965.7s
+1M: 5460.7 * 32^3 = 178936217.6s
+
+
+
+Q4 - O(N^2 log(N))
+
+It's the same as Question 2, thus we can assume that k^2log(N):log(N) = k^2:1
+
+Estimate: 32K: 3.5*2^2 = 14s
+Accurate: 32K: 13.9s
+Error = 0.1s
+Estimate: 1M: 13.9 * 32^2 = 14233.6s
+
+
+
