@@ -1,1 +1,12 @@
+Zhenhao Zhang 32277234 zzh133@u.rochester.edu Lab - 24
 
+
+I finished LinkedList and ArrayList. There are five java file in this zip file.
+The URArrayList and URLinkedList are the two main classes. I write three java program
+to test Lists. The URArrayListTest is for URArrayList and URLinkedListTest is create
+specifically for URLinkedList. In order to test the files, TA's should open the file and
+run it. The result will come up automatically. Furthermore, I create a special test file
+which can test both URArrayList and URLinedList, which is called Test. In this file TA should
+open it and run it. But this one is a little different from previous, if there are any mistakes
+the program will print something out. If there is nothing printed out, that means the program don't have
+any errors.
