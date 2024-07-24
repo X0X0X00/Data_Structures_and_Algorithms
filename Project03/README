@@ -1,1 +1,25 @@
 
+Zhenhao Zhang Lab 24 zzh133@u.rochester.edu
+
+
+There is a class called Edge, which stores the road information. Follow the
+r RoadID Intersection1ID Intersection2ID form. Also, there is a Node class,
+which stores the intersection information. Follow the  i IntersectionID Latitude
+Longitude. Also, there is a class called Graph, which is used to create the image.
+Another class called MyFrame is used to draw something on the Graph and show the
+path. Finally, the StreetMap class contains the search function and finds the
+minimum path.
+
+So, in the end,
+the input will be:
+ur.txt --show --directions ANDERSON WILSON
+
+The final output will be :
+/Users/zzh/Library/Java/JavaVirtualMachines/openjdk-20.0.1/Contents/Home/bin/java -javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=52463:/Applications/IntelliJ IDEA CE.app/Contents/bin -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath /Users/zzh/IntelliJ Programs/CSC_172_Project/Project 3 zzh/out/production/Project 3 zzh StreetMap ur.txt --show --directions ANDERSON WILSON
+The path is:
+ANDERSON i82 i81 SPURRIER i79 GOERGEN-ATHLETIC i54 i30 i33 WILSON
+Distance: 0.29644452342377325 miles
+
+Process finished with exit code 0
+
+for best view, you can adjust the window by yourself.
