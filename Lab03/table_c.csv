@@ -1,0 +1,7 @@
+,1Kints.txt,2Kints.txt,4Kints.txt,8Kints.txt,16Kints.txt,32Kints.txt
+Arrays.sort(),0.0,0.0,0.0,0.0,0.0,1.0
+BubbleSort,2.0,3.0,19.0,18.0,74.0,293.0
+SelectionSort,0.0,1.0,6.0,24.0,105.0,387.0
+InsertionSort,1.0,1.0,28.0,27.0,91.0,376.0
+Mergesort,0.0,0.0,0.0,0.0,0.0,2.0
+Quicksort,2.0,6.0,3.0,14.0,56.0,288.0
